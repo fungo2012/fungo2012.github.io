@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*Author:YangYonggui QQ:422297784*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,tr,th,td{ padding:0; margin:0; word-wrap:break-word; word-break:break-all; }
+body{ font:normal 12px/1.5 "simsun",Verdana,arial;}
+h1,h2,h3,h4,h5,h6{ font-size:12px; }
+ul,ol{list-style:none;}
+img { border:none; margin:0; padding:0; vertical-align:top;}
+a{text-decoration:none; cursor:pointer; outline:none; color:#333; }
+a:hover{ color:#ff840b; }
+
+.cf:after,.cf:before {content:""; display:block; height:0px; clear:both; visibility:hidden;}
+.cf{zoom:1}
+.ovh { overflow:hidden; *zoom:1;}
+
+.fl{ float:left; _display:inline; }
+.fr{ float:right; _display:inline; }
+
+.tc{ text-align:center; }
+.tl{ text-align:left; }
+.tr{ text-align:right; }
+.vm{ vertical-align:middle;}
+
+.mr5 {margin-right:5px;}
+.mlr5 { margin-left:5px; margin-right:5px;}
+.ml10 { margin-left:10px;}
+.mr10 { margin-right:10px;}
+.mt15 { margin-top:15px;}
+
+.area { width:920px; margin-left:auto; margin-right:auto;}
+.header { height:108px; background:url(../images/head-bg.png) repeat-x;}
+.main {min-height:540px; _height:540px; background-color:#cfc8c2;}
+.footer { padding:15px 0; text-align:center; font:normal 14px/30px "microsoft yahei","simhei"; color:#666;}
+
+.logo { float:left; margin:19px 80px 0 29px; _display:inline; width:232px; height:76px; background:url(../images/logo.png) no-repeat; text-indent:-9999px;}
+.nav { float:left; margin:75px 0 0; height:33px;}
+.nav a { float:left; margin-right:50px; _display:inline; height:30px; font:normal 24px/30px "microsoft yahei","simhei"; color:#fff;}
+.nav .curr { border-bottom:3px solid #fff;}
+.nav a:hover { color:#fff;}
+.mainL { position:relative; float:left; width:570px; height:485px; background:url(../images/main-bg.png) no-repeat;}
+.mainL .downLoad { position:absolute; left:124px; top:356px; width:316px; height:99px;}
+.mainL .downLoad a { display:block; width:316px; height:99px; text-indent:-9999px;}
+.main .area {position:relative;}
+.phoneBox { position:absolute; right:70px; top:-39px; width:257px; height:526px; background:url(../images/phone.png) no-repeat;}
+
+.aboutBox { margin:0 auto 20px; width:880px; font:normal 18px/30px "microsoft yahei","simhei"; color:#333;}
+.aboutBox dl { padding-top:50px;}
+.aboutBox dt { display:inline-block; *display:inline; *zoom:1; margin:8px 0; padding:0 5px 0 0; font:normal 30px/32px "microsoft yahei","simhei"; border-right:3px solid #333;}
+.contact dd { padding:0 0 0 60px; line-height:40px;}
+.contact .mail { background:url(../images/mail.png) no-repeat 0 center;}
+.contact .add { background:url(../images/add.png) no-repeat 3px center;}
+.contact .mail a:hover{ color:#333; text-decoration:underline; }
