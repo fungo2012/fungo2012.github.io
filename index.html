@@ -7,7 +7,15 @@
 	<meta name="description" content="云图TV是一款手机在线高清流畅观看电视直播的软件">
 	<link rel="stylesheet" href="css/style.css">
 	
-
+	<script type="text/javascript">
+           var ua = window.navigator.userAgent.toLowerCase();
+           if (ua.indexOf('android') != -1) {
+	        location.replace('m/android.html');
+           } else if (ua.indexOf('iphone') != -1) {
+	        location.replace('m/iphone.html');
+           }
+        </script>
+	
 </head>
 <body>
 	<div class="header">
